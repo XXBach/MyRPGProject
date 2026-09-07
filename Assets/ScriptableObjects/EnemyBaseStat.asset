@@ -16,5 +16,5 @@ MonoBehaviour:
   _maxHealth: 100
   _baseDamage: 12
   _baseDef: 2
-  _baseSpeed: 10
+  _baseSpeed: 3
   _movementRange: 5

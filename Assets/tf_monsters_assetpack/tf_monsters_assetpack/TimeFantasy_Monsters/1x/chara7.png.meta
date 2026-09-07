@@ -336,7 +336,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -414,12 +414,12 @@ TextureImporter:
       name: chara7_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 251
-        width: 21
-        height: 32
+        x: 3
+        y: 252
+        width: 19
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -436,12 +436,12 @@ TextureImporter:
       name: chara7_1
       rect:
         serializedVersion: 2
-        x: 27
-        y: 251
-        width: 23
-        height: 33
+        x: 28
+        y: 252
+        width: 21
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -458,12 +458,12 @@ TextureImporter:
       name: chara7_2
       rect:
         serializedVersion: 2
-        x: 54
-        y: 251
-        width: 21
-        height: 32
+        x: 55
+        y: 252
+        width: 19
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -480,12 +480,12 @@ TextureImporter:
       name: chara7_3
       rect:
         serializedVersion: 2
-        x: 82
-        y: 251
-        width: 17
-        height: 35
+        x: 83
+        y: 252
+        width: 15
+        height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -502,12 +502,12 @@ TextureImporter:
       name: chara7_4
       rect:
         serializedVersion: 2
-        x: 107
-        y: 251
-        width: 19
-        height: 36
+        x: 108
+        y: 252
+        width: 17
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -524,12 +524,12 @@ TextureImporter:
       name: chara7_5
       rect:
         serializedVersion: 2
-        x: 107
-        y: 215
-        width: 19
-        height: 36
+        x: 135
+        y: 252
+        width: 15
+        height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -546,12 +546,12 @@ TextureImporter:
       name: chara7_6
       rect:
         serializedVersion: 2
-        x: 134
-        y: 251
-        width: 17
-        height: 35
+        x: 161
+        y: 252
+        width: 15
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -568,12 +568,12 @@ TextureImporter:
       name: chara7_7
       rect:
         serializedVersion: 2
-        x: 160
-        y: 251
+        x: 186
+        y: 252
         width: 17
-        height: 30
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -590,12 +590,12 @@ TextureImporter:
       name: chara7_8
       rect:
         serializedVersion: 2
-        x: 185
-        y: 251
-        width: 19
-        height: 31
+        x: 213
+        y: 252
+        width: 15
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -612,12 +612,12 @@ TextureImporter:
       name: chara7_9
       rect:
         serializedVersion: 2
-        x: 212
-        y: 251
-        width: 17
-        height: 30
+        x: 237
+        y: 252
+        width: 19
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -634,12 +634,12 @@ TextureImporter:
       name: chara7_10
       rect:
         serializedVersion: 2
-        x: 236
-        y: 251
-        width: 21
-        height: 29
+        x: 263
+        y: 252
+        width: 19
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -656,12 +656,12 @@ TextureImporter:
       name: chara7_11
       rect:
         serializedVersion: 2
-        x: 262
-        y: 251
-        width: 21
-        height: 30
+        x: 289
+        y: 252
+        width: 19
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -678,12 +678,12 @@ TextureImporter:
       name: chara7_12
       rect:
         serializedVersion: 2
-        x: 288
-        y: 251
-        width: 21
-        height: 29
+        x: 4
+        y: 216
+        width: 18
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -700,12 +700,12 @@ TextureImporter:
       name: chara7_13
       rect:
         serializedVersion: 2
-        x: 3
-        y: 215
-        width: 20
-        height: 32
+        x: 30
+        y: 216
+        width: 16
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -722,12 +722,12 @@ TextureImporter:
       name: chara7_14
       rect:
         serializedVersion: 2
-        x: 29
-        y: 215
-        width: 18
-        height: 33
+        x: 56
+        y: 216
+        width: 16
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -744,12 +744,12 @@ TextureImporter:
       name: chara7_15
       rect:
         serializedVersion: 2
-        x: 55
-        y: 215
-        width: 18
-        height: 32
+        x: 82
+        y: 216
+        width: 17
+        height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -766,12 +766,12 @@ TextureImporter:
       name: chara7_16
       rect:
         serializedVersion: 2
-        x: 81
-        y: 215
-        width: 19
-        height: 35
+        x: 108
+        y: 216
+        width: 17
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -788,12 +788,12 @@ TextureImporter:
       name: chara7_17
       rect:
         serializedVersion: 2
-        x: 107
-        y: 179
-        width: 19
-        height: 36
+        x: 134
+        y: 216
+        width: 17
+        height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -810,12 +810,12 @@ TextureImporter:
       name: chara7_18
       rect:
         serializedVersion: 2
-        x: 133
-        y: 215
-        width: 19
-        height: 35
+        x: 161
+        y: 216
+        width: 15
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -832,12 +832,12 @@ TextureImporter:
       name: chara7_19
       rect:
         serializedVersion: 2
-        x: 160
-        y: 215
-        width: 17
-        height: 30
+        x: 187
+        y: 216
+        width: 15
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -854,12 +854,12 @@ TextureImporter:
       name: chara7_20
       rect:
         serializedVersion: 2
-        x: 186
-        y: 215
-        width: 17
-        height: 31
+        x: 213
+        y: 216
+        width: 15
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -876,12 +876,12 @@ TextureImporter:
       name: chara7_21
       rect:
         serializedVersion: 2
-        x: 212
-        y: 215
+        x: 239
+        y: 216
         width: 17
-        height: 30
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -898,12 +898,12 @@ TextureImporter:
       name: chara7_22
       rect:
         serializedVersion: 2
-        x: 238
-        y: 215
-        width: 19
-        height: 29
+        x: 265
+        y: 216
+        width: 17
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -920,12 +920,12 @@ TextureImporter:
       name: chara7_23
       rect:
         serializedVersion: 2
-        x: 264
-        y: 215
-        width: 19
-        height: 30
+        x: 291
+        y: 216
+        width: 17
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -942,12 +942,12 @@ TextureImporter:
       name: chara7_24
       rect:
         serializedVersion: 2
-        x: 290
-        y: 215
-        width: 19
-        height: 29
+        x: 5
+        y: 180
+        width: 16
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -964,12 +964,12 @@ TextureImporter:
       name: chara7_25
       rect:
         serializedVersion: 2
-        x: 4
-        y: 179
-        width: 18
-        height: 32
+        x: 31
+        y: 180
+        width: 16
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -986,12 +986,12 @@ TextureImporter:
       name: chara7_26
       rect:
         serializedVersion: 2
-        x: 30
-        y: 179
+        x: 55
+        y: 180
         width: 18
-        height: 33
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1008,12 +1008,12 @@ TextureImporter:
       name: chara7_27
       rect:
         serializedVersion: 2
-        x: 54
-        y: 179
-        width: 20
-        height: 32
+        x: 82
+        y: 180
+        width: 17
+        height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1030,12 +1030,12 @@ TextureImporter:
       name: chara7_28
       rect:
         serializedVersion: 2
-        x: 81
-        y: 179
-        width: 19
-        height: 35
+        x: 108
+        y: 180
+        width: 17
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1052,12 +1052,12 @@ TextureImporter:
       name: chara7_29
       rect:
         serializedVersion: 2
-        x: 107
-        y: 143
-        width: 19
-        height: 36
+        x: 134
+        y: 180
+        width: 17
+        height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1074,12 +1074,12 @@ TextureImporter:
       name: chara7_30
       rect:
         serializedVersion: 2
-        x: 133
-        y: 179
-        width: 19
-        height: 35
+        x: 161
+        y: 180
+        width: 15
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1096,12 +1096,12 @@ TextureImporter:
       name: chara7_31
       rect:
         serializedVersion: 2
-        x: 160
-        y: 179
-        width: 17
-        height: 30
+        x: 187
+        y: 180
+        width: 15
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1118,12 +1118,12 @@ TextureImporter:
       name: chara7_32
       rect:
         serializedVersion: 2
-        x: 186
-        y: 179
-        width: 17
-        height: 31
+        x: 213
+        y: 180
+        width: 15
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1140,12 +1140,12 @@ TextureImporter:
       name: chara7_33
       rect:
         serializedVersion: 2
-        x: 212
-        y: 179
+        x: 237
+        y: 180
         width: 17
-        height: 30
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1162,12 +1162,12 @@ TextureImporter:
       name: chara7_34
       rect:
         serializedVersion: 2
-        x: 236
-        y: 179
-        width: 19
-        height: 29
+        x: 263
+        y: 180
+        width: 17
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1184,12 +1184,12 @@ TextureImporter:
       name: chara7_35
       rect:
         serializedVersion: 2
-        x: 262
-        y: 179
-        width: 19
-        height: 30
+        x: 289
+        y: 180
+        width: 17
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1206,12 +1206,12 @@ TextureImporter:
       name: chara7_36
       rect:
         serializedVersion: 2
-        x: 288
-        y: 179
+        x: 3
+        y: 144
         width: 19
-        height: 29
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1228,12 +1228,12 @@ TextureImporter:
       name: chara7_37
       rect:
         serializedVersion: 2
-        x: 2
-        y: 143
+        x: 28
+        y: 144
         width: 21
-        height: 32
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1250,12 +1250,12 @@ TextureImporter:
       name: chara7_38
       rect:
         serializedVersion: 2
-        x: 27
-        y: 143
-        width: 23
-        height: 33
+        x: 55
+        y: 144
+        width: 19
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1272,12 +1272,12 @@ TextureImporter:
       name: chara7_39
       rect:
         serializedVersion: 2
-        x: 54
-        y: 143
-        width: 21
-        height: 32
+        x: 82
+        y: 144
+        width: 18
+        height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1294,12 +1294,12 @@ TextureImporter:
       name: chara7_40
       rect:
         serializedVersion: 2
-        x: 81
-        y: 143
-        width: 20
-        height: 35
+        x: 108
+        y: 144
+        width: 17
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1316,12 +1316,12 @@ TextureImporter:
       name: chara7_41
       rect:
         serializedVersion: 2
-        x: 132
-        y: 143
-        width: 20
-        height: 35
+        x: 133
+        y: 144
+        width: 18
+        height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1338,12 +1338,12 @@ TextureImporter:
       name: chara7_42
       rect:
         serializedVersion: 2
-        x: 160
-        y: 143
-        width: 17
-        height: 30
+        x: 161
+        y: 144
+        width: 15
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1360,12 +1360,12 @@ TextureImporter:
       name: chara7_43
       rect:
         serializedVersion: 2
-        x: 185
-        y: 143
-        width: 19
-        height: 31
+        x: 186
+        y: 144
+        width: 17
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1382,12 +1382,12 @@ TextureImporter:
       name: chara7_44
       rect:
         serializedVersion: 2
-        x: 212
-        y: 143
-        width: 17
-        height: 30
+        x: 213
+        y: 144
+        width: 15
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1404,12 +1404,12 @@ TextureImporter:
       name: chara7_45
       rect:
         serializedVersion: 2
-        x: 236
-        y: 143
-        width: 21
-        height: 29
+        x: 237
+        y: 144
+        width: 19
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1426,12 +1426,12 @@ TextureImporter:
       name: chara7_46
       rect:
         serializedVersion: 2
-        x: 262
-        y: 143
-        width: 21
-        height: 30
+        x: 263
+        y: 144
+        width: 19
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1448,12 +1448,12 @@ TextureImporter:
       name: chara7_47
       rect:
         serializedVersion: 2
-        x: 288
-        y: 143
-        width: 21
-        height: 29
+        x: 289
+        y: 144
+        width: 19
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1470,12 +1470,12 @@ TextureImporter:
       name: chara7_48
       rect:
         serializedVersion: 2
-        x: 4
-        y: 107
-        width: 17
-        height: 31
+        x: 5
+        y: 108
+        width: 15
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1492,12 +1492,12 @@ TextureImporter:
       name: chara7_49
       rect:
         serializedVersion: 2
-        x: 29
-        y: 107
-        width: 19
-        height: 32
+        x: 30
+        y: 108
+        width: 17
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1514,12 +1514,12 @@ TextureImporter:
       name: chara7_50
       rect:
         serializedVersion: 2
-        x: 56
-        y: 107
-        width: 17
-        height: 31
+        x: 57
+        y: 108
+        width: 15
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1536,12 +1536,12 @@ TextureImporter:
       name: chara7_51
       rect:
         serializedVersion: 2
-        x: 80
-        y: 107
-        width: 21
-        height: 29
+        x: 81
+        y: 108
+        width: 19
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1558,12 +1558,12 @@ TextureImporter:
       name: chara7_52
       rect:
         serializedVersion: 2
-        x: 106
-        y: 107
-        width: 21
-        height: 30
+        x: 107
+        y: 108
+        width: 19
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1580,12 +1580,12 @@ TextureImporter:
       name: chara7_53
       rect:
         serializedVersion: 2
-        x: 132
-        y: 107
-        width: 21
-        height: 29
+        x: 133
+        y: 108
+        width: 19
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1602,12 +1602,12 @@ TextureImporter:
       name: chara7_54
       rect:
         serializedVersion: 2
-        x: 159
-        y: 107
-        width: 19
-        height: 32
+        x: 160
+        y: 108
+        width: 17
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1624,12 +1624,12 @@ TextureImporter:
       name: chara7_55
       rect:
         serializedVersion: 2
-        x: 185
-        y: 107
-        width: 19
-        height: 33
+        x: 186
+        y: 108
+        width: 17
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1646,12 +1646,12 @@ TextureImporter:
       name: chara7_56
       rect:
         serializedVersion: 2
-        x: 211
-        y: 107
-        width: 19
-        height: 32
+        x: 212
+        y: 108
+        width: 17
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1668,12 +1668,12 @@ TextureImporter:
       name: chara7_57
       rect:
         serializedVersion: 2
-        x: 235
-        y: 107
-        width: 23
-        height: 30
+        x: 236
+        y: 108
+        width: 21
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1690,12 +1690,12 @@ TextureImporter:
       name: chara7_58
       rect:
         serializedVersion: 2
-        x: 261
-        y: 107
-        width: 23
-        height: 31
+        x: 262
+        y: 108
+        width: 21
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1712,12 +1712,12 @@ TextureImporter:
       name: chara7_59
       rect:
         serializedVersion: 2
-        x: 287
-        y: 107
-        width: 23
-        height: 30
+        x: 288
+        y: 108
+        width: 21
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1734,12 +1734,12 @@ TextureImporter:
       name: chara7_60
       rect:
         serializedVersion: 2
-        x: 4
-        y: 72
-        width: 17
-        height: 31
+        x: 5
+        y: 73
+        width: 15
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1756,12 +1756,12 @@ TextureImporter:
       name: chara7_61
       rect:
         serializedVersion: 2
-        x: 30
-        y: 72
-        width: 17
-        height: 32
+        x: 31
+        y: 73
+        width: 15
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1778,12 +1778,12 @@ TextureImporter:
       name: chara7_62
       rect:
         serializedVersion: 2
-        x: 56
-        y: 72
-        width: 17
-        height: 31
+        x: 57
+        y: 73
+        width: 15
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1800,12 +1800,12 @@ TextureImporter:
       name: chara7_63
       rect:
         serializedVersion: 2
-        x: 82
-        y: 71
-        width: 18
-        height: 29
+        x: 83
+        y: 72
+        width: 16
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1822,12 +1822,12 @@ TextureImporter:
       name: chara7_64
       rect:
         serializedVersion: 2
-        x: 108
-        y: 71
-        width: 18
-        height: 30
+        x: 109
+        y: 72
+        width: 16
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1844,12 +1844,12 @@ TextureImporter:
       name: chara7_65
       rect:
         serializedVersion: 2
-        x: 134
-        y: 71
-        width: 18
-        height: 29
+        x: 135
+        y: 72
+        width: 16
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1866,12 +1866,12 @@ TextureImporter:
       name: chara7_66
       rect:
         serializedVersion: 2
-        x: 158
-        y: 71
-        width: 20
-        height: 32
+        x: 159
+        y: 72
+        width: 18
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1888,12 +1888,12 @@ TextureImporter:
       name: chara7_67
       rect:
         serializedVersion: 2
-        x: 184
-        y: 71
-        width: 20
-        height: 33
+        x: 185
+        y: 72
+        width: 18
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1910,12 +1910,12 @@ TextureImporter:
       name: chara7_68
       rect:
         serializedVersion: 2
-        x: 210
-        y: 71
-        width: 20
-        height: 32
+        x: 211
+        y: 72
+        width: 18
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1932,12 +1932,12 @@ TextureImporter:
       name: chara7_69
       rect:
         serializedVersion: 2
-        x: 238
-        y: 71
-        width: 19
-        height: 30
+        x: 239
+        y: 72
+        width: 17
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1954,12 +1954,12 @@ TextureImporter:
       name: chara7_70
       rect:
         serializedVersion: 2
-        x: 264
-        y: 71
-        width: 19
-        height: 31
+        x: 265
+        y: 72
+        width: 17
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1976,12 +1976,12 @@ TextureImporter:
       name: chara7_71
       rect:
         serializedVersion: 2
-        x: 290
-        y: 71
-        width: 19
-        height: 30
+        x: 291
+        y: 72
+        width: 17
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1998,12 +1998,12 @@ TextureImporter:
       name: chara7_72
       rect:
         serializedVersion: 2
-        x: 4
-        y: 35
-        width: 17
-        height: 31
+        x: 5
+        y: 36
+        width: 15
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2020,12 +2020,12 @@ TextureImporter:
       name: chara7_73
       rect:
         serializedVersion: 2
-        x: 30
-        y: 35
-        width: 17
-        height: 32
+        x: 31
+        y: 36
+        width: 15
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2042,12 +2042,12 @@ TextureImporter:
       name: chara7_74
       rect:
         serializedVersion: 2
-        x: 56
-        y: 35
-        width: 17
-        height: 31
+        x: 57
+        y: 36
+        width: 15
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2064,12 +2064,12 @@ TextureImporter:
       name: chara7_75
       rect:
         serializedVersion: 2
-        x: 81
-        y: 35
-        width: 18
-        height: 29
+        x: 82
+        y: 36
+        width: 16
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2086,12 +2086,12 @@ TextureImporter:
       name: chara7_76
       rect:
         serializedVersion: 2
-        x: 107
-        y: 35
-        width: 18
-        height: 30
+        x: 108
+        y: 36
+        width: 16
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2108,12 +2108,12 @@ TextureImporter:
       name: chara7_77
       rect:
         serializedVersion: 2
-        x: 133
-        y: 35
-        width: 18
-        height: 29
+        x: 134
+        y: 36
+        width: 16
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2130,12 +2130,12 @@ TextureImporter:
       name: chara7_78
       rect:
         serializedVersion: 2
-        x: 159
-        y: 35
-        width: 20
-        height: 32
+        x: 160
+        y: 36
+        width: 18
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2152,12 +2152,12 @@ TextureImporter:
       name: chara7_79
       rect:
         serializedVersion: 2
-        x: 185
-        y: 35
-        width: 20
-        height: 33
+        x: 186
+        y: 36
+        width: 18
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2174,12 +2174,12 @@ TextureImporter:
       name: chara7_80
       rect:
         serializedVersion: 2
-        x: 211
-        y: 35
-        width: 20
-        height: 32
+        x: 212
+        y: 36
+        width: 18
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2196,12 +2196,12 @@ TextureImporter:
       name: chara7_81
       rect:
         serializedVersion: 2
-        x: 236
-        y: 35
-        width: 19
-        height: 30
+        x: 237
+        y: 36
+        width: 17
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2218,12 +2218,12 @@ TextureImporter:
       name: chara7_82
       rect:
         serializedVersion: 2
-        x: 262
-        y: 35
-        width: 19
-        height: 31
+        x: 263
+        y: 36
+        width: 17
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2240,12 +2240,12 @@ TextureImporter:
       name: chara7_83
       rect:
         serializedVersion: 2
-        x: 288
-        y: 35
-        width: 19
-        height: 30
+        x: 289
+        y: 36
+        width: 17
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2262,12 +2262,12 @@ TextureImporter:
       name: chara7_84
       rect:
         serializedVersion: 2
-        x: 4
+        x: 5
         y: 0
-        width: 18
-        height: 30
+        width: 16
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2284,12 +2284,12 @@ TextureImporter:
       name: chara7_85
       rect:
         serializedVersion: 2
-        x: 29
+        x: 30
         y: 0
-        width: 19
-        height: 31
+        width: 17
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2306,12 +2306,12 @@ TextureImporter:
       name: chara7_86
       rect:
         serializedVersion: 2
-        x: 55
+        x: 56
         y: 0
-        width: 18
-        height: 30
+        width: 16
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2328,12 +2328,12 @@ TextureImporter:
       name: chara7_87
       rect:
         serializedVersion: 2
-        x: 80
+        x: 81
         y: 0
-        width: 21
-        height: 28
+        width: 19
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2350,12 +2350,12 @@ TextureImporter:
       name: chara7_88
       rect:
         serializedVersion: 2
-        x: 106
+        x: 107
         y: 0
-        width: 21
-        height: 29
+        width: 19
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2372,12 +2372,12 @@ TextureImporter:
       name: chara7_89
       rect:
         serializedVersion: 2
-        x: 132
+        x: 133
         y: 0
-        width: 21
-        height: 28
+        width: 19
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2394,12 +2394,12 @@ TextureImporter:
       name: chara7_90
       rect:
         serializedVersion: 2
-        x: 159
+        x: 160
         y: 0
-        width: 19
-        height: 31
+        width: 17
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2416,12 +2416,12 @@ TextureImporter:
       name: chara7_91
       rect:
         serializedVersion: 2
-        x: 185
+        x: 186
         y: 0
-        width: 19
-        height: 32
+        width: 17
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2438,12 +2438,12 @@ TextureImporter:
       name: chara7_92
       rect:
         serializedVersion: 2
-        x: 211
+        x: 212
         y: 0
-        width: 19
-        height: 31
+        width: 17
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2460,12 +2460,12 @@ TextureImporter:
       name: chara7_93
       rect:
         serializedVersion: 2
-        x: 235
+        x: 236
         y: 0
-        width: 23
-        height: 29
+        width: 21
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2482,12 +2482,12 @@ TextureImporter:
       name: chara7_94
       rect:
         serializedVersion: 2
-        x: 261
+        x: 262
         y: 0
-        width: 23
-        height: 30
+        width: 21
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2504,12 +2504,12 @@ TextureImporter:
       name: chara7_95
       rect:
         serializedVersion: 2
-        x: 287
+        x: 288
         y: 0
-        width: 23
-        height: 29
+        width: 21
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2526,7 +2526,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1f69d3b2456990249995dd95917e92f8
     internalID: 0
     vertices: []
     indices: 
@@ -2534,7 +2534,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       chara7_0: -8531811475386129314
       chara7_1: -4047362954944273868
