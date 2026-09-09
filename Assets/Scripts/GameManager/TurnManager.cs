@@ -39,7 +39,12 @@ public class TurnManager : MonoBehaviour
     private UnityEvent _endTurnEvent;
     private int currentCharacterIndex = 0;
     [SerializeField] private TextMeshProUGUI _textMeshPro;
-
+    private List<ICharacter> OrderedTurns = new List<ICharacter>();
+    private bool _isTurnEnded = false;
+    public void SetIsTurnEnded()
+    {
+        _isTurnEnded = true;
+    }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -59,7 +64,16 @@ public class TurnManager : MonoBehaviour
                 HandleTurnExecution(currentCharacterIndex);
                 break;
             case TurnManagerPhase.WAITINGFORENDTURNSIGNAL:
-                HandleTurnExecution(currentCharacterIndex);
+                if(_isTurnEnded)
+                {
+                    _isTurnEnded = false;
+                    HandleEndTurnSignal();
+                    _currentPhase = TurnManagerPhase.ENDTURN;
+                }
+                else
+                {
+                    HandleTurnExecution(currentCharacterIndex);
+                }
                 break;
             case TurnManagerPhase.ENDTURN:
                 HandleEndTurn();
@@ -69,17 +83,16 @@ public class TurnManager : MonoBehaviour
     //Khi state đang ở startturn, hàm này sẽ sắp xếp danh sách các unit theo thứ tự speed có sẵn, nếu bằng thì gọi đến thanh MP, nếu bằng nữa thì random, và gọi ShowMenuFor(unit) cho unit đầu tiên trong danh sách
     public void HandleStartTurn()
     {
-        List<ICharacter> OrderedTurns = OrderingList();
-        this._actionMenu.ShowMenuFor(OrderedTurns[0]);
-        Debug.Log("Menu Shown");
+        OrderedTurns = OrderingList();
+        currentCharacterIndex = 0;
+        this._actionMenu.ShowMenuFor(this.OrderedTurns[0]);
         this._turnNumber++;
         SetTurnNumber();
         _currentPhase = TurnManagerPhase.WAITINGFORENDTURNSIGNAL;
     }
     public void HandleTurnExecution(int i)
     {
-        List<ICharacter> OrderedTurns = OrderingList();
-        this._actionMenu.ShowMenuFor(OrderedTurns[i]);
+        this._actionMenu.ShowMenuFor(this.OrderedTurns[i]);
         _currentPhase = TurnManagerPhase.WAITINGFORENDTURNSIGNAL;
     }
     public void HandleEndTurnSignal()
@@ -91,7 +104,15 @@ public class TurnManager : MonoBehaviour
     public void HandleEndTurn()
     {
         _endTurnEvent?.Invoke();
-        _currentPhase = TurnManagerPhase.STARTTURN;
+        if(currentCharacterIndex >= _characterList.Count)
+        {
+            _currentPhase = TurnManagerPhase.STARTTURN;
+        }
+        else
+        {
+            _currentPhase = TurnManagerPhase.EXECUTETURN;
+        }
+
     }
     public List<ICharacter> OrderingList()
     {

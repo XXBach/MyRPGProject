@@ -17,4 +17,6 @@ MonoBehaviour:
   _baseDamage: 30
   _baseDef: 20
   _baseSpeed: 3
+  _baseAttackRange: 1
   _movementRange: 5
+  _maxMP: 100

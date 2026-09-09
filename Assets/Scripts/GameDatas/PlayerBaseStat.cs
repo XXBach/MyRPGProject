@@ -8,6 +8,7 @@ public class PlayerBaseStat : ScriptableObject
     [SerializeField] private int _baseDamage;
     [SerializeField] private int _baseDef;
     [SerializeField] private int _baseSpeed;
+    [SerializeField] private int _baseAttackRange;
     [SerializeField] private int _movementRange;
     [SerializeField] private int _maxMP;
 
@@ -16,6 +17,7 @@ public class PlayerBaseStat : ScriptableObject
     public int BaseDamage => _baseDamage;
     public int BaseDef => _baseDef;
     public int BaseSpeed => _baseSpeed;
+    public int BaseAttackRange => _baseAttackRange;
     public int MovementRange => _movementRange;
     public int MaxMP => _maxMP;
 }

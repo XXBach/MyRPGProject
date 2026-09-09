@@ -1,11 +1,12 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.Tilemaps;
 
 public enum ObstacleType
 {
-    Blocking = 0,
-    Jumpable = 1,
+    None = 0,
+    Blocking = 1,
 }
 
 [System.Serializable]
@@ -25,11 +26,13 @@ public class GridSetup : MonoBehaviour
     [SerializeField] private Transform PathFindingDebugObjectPrefab;
     [SerializeField] private bool isShowDebug = false;
     [SerializeField] private bool showGridInEditor = false;
+    private UnityEvent<OnMovementEndArgs> OnMovementEnd = new UnityEvent<OnMovementEndArgs>();
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         Grid = new Grid<PathNode>(width, height, cellSize, _font, Vector3.zero, (Grid<PathNode> g, int x, int y) => CreatePathNode(g, x, y));
-        if(isShowDebug) SetupGridDebugObjects();
+        OnMovementEnd.AddListener(args => UpdateNodeState(args.FinalPosition, args.FinalNodeState));
+        if (isShowDebug) SetupGridDebugObjects();
     }
     private void SetupGridDebugObjects()
     {
@@ -67,13 +70,21 @@ public class GridSetup : MonoBehaviour
                 state = NodeState.Blocked;
                 break;
             }
-            else if (layer.ObstacleType == ObstacleType.Jumpable && state == NodeState.Walkable)
+            else
             {
-                state = NodeState.Jumpable;
+                state = NodeState.Walkable;
             }
         }
 
         return new PathNode(grid, x, y) { State = state };
+    }
+    public void UpdateNodeState(Vector2Int FinalPosition, NodeState newState)
+    {
+        PathNode node = Grid.GetGridObject(FinalPosition.x, FinalPosition.y);
+        if (node != null)
+        {
+            node.State = newState;
+        }
     }
     private void OnDrawGizmos()
     {

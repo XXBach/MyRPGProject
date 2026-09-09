@@ -9,6 +9,7 @@ public class EnemyBaseStat : ScriptableObject
     [SerializeField] private int _baseDef;
     [SerializeField] private int _baseSpeed;
     [SerializeField] private int _movementRange;
+    [SerializeField] private int _baseAttackRange;
     [SerializeField] private int _maxMP;
 
     public string EnemyName => _enemyName;
@@ -17,6 +18,7 @@ public class EnemyBaseStat : ScriptableObject
     public int BaseDef => _baseDef;
     public int BaseSpeed => _baseSpeed;
     public int MovementRange => _movementRange;
+    public int BaseAttackRange => _baseAttackRange;
     public int MaxMP => _maxMP;
 
 }

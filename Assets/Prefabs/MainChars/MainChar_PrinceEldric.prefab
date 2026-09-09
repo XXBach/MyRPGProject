@@ -129,6 +129,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   _baseStats: {fileID: 11400000, guid: 8140deced401cb648a487d35fd755377, type: 2}
+  _movementManager: {fileID: 0}
 --- !u!114 &8342545293501007909
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -142,6 +143,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   MCMovementState: 0
+  OnMovementEnd:
+    m_PersistentCalls:
+      m_Calls: []
   _inputActionAsset: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   _movablePrefab: {fileID: -2253911629886400664, guid: bc4c97acc0dae6f46b1ced7a8a13dce7, type: 3}
   _unmovablePrefab: {fileID: -2253911629886400664, guid: 2ff91d28bd9df76488193407a82441f9, type: 3}
