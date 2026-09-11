@@ -18,7 +18,6 @@ public class PlayerActionMenu : MonoBehaviour
 {
     [Header("UI References")]
     [SerializeField] private RectTransform _menuPanel;
-    [SerializeField] private RectTransform _attackMenuPanel;
     [SerializeField] private Button _moveButton;
     [SerializeField] private Button _attackButton;
     [SerializeField] private Button _endTurnButton;
@@ -66,12 +65,6 @@ public class PlayerActionMenu : MonoBehaviour
         _menuPanel.gameObject.SetActive(true);
         UpdatePanelPosition(); // đặt vị trí ngay, tránh nháy 1 frame ở vị trí cũ
     }
-    public void ShowAttackMenuFor(ICharacter player)
-    {
-        _activeAttackManager = player.GetAttackManager();
-        _activeUnitPosition = player.GetCharWorldPosition();
-        CurrentAction = CharacterState.IDLE;
-    }
     /// <summary>
     /// Gọi khi kết thúc lượt của unit (dọn reference, không còn follow ai nữa).
     /// </summary>
@@ -86,7 +79,6 @@ public class PlayerActionMenu : MonoBehaviour
     {
         _menuPanel.gameObject.SetActive(false);
     }
-
     private void LateUpdate()
     {
         // LateUpdate để đảm bảo unit đã di chuyển xong trong frame trước khi tính vị trí UI

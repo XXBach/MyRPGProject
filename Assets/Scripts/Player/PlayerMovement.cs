@@ -226,4 +226,8 @@ public class PlayerMovement : MonoBehaviour, IMovement
             Gizmos.DrawLine(from, to);
         }
     }
+    public PathFinding GetPathFinding()
+    {
+        return _pathFinding;
+    }
 }

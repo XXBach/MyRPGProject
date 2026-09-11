@@ -8,4 +8,5 @@ public interface ICharacter
     public int GetCurrentMP();
     public string GetName();
     public CharacterData CurrentDatas { get; }
+    public AttackSet GetAttackSet();
 }

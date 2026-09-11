@@ -15,7 +15,8 @@ public class CharacterData
 public class Enemy : MonoBehaviour, ICharacter
 {
     public CharacterData CurrentDatas { get; set; }
-    [SerializeField] private EnemyBaseStat _baseStats;
+    [SerializeField] private CharacterBaseStats _baseStats;
+    [SerializeField] private AttackSet _attackSet;
     private EnemyMovement _enemyMovement;
     private EnemyAttackManager _enemyAttackManager;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -28,7 +29,7 @@ public class Enemy : MonoBehaviour, ICharacter
         CurrentDatas.CurrentMovementRange = _baseStats.MovementRange;
         CurrentDatas.CurrentSpeed = _baseStats.BaseSpeed;
         CurrentDatas.CurrentMP = _baseStats.MaxMP;
-        CurrentDatas.Name = _baseStats.EnemyName;
+        CurrentDatas.Name = _baseStats.CharName;
         CurrentDatas.CurrentAttackRange = _baseStats.BaseAttackRange;
     }
 
@@ -59,5 +60,9 @@ public class Enemy : MonoBehaviour, ICharacter
     public IAttackManager GetAttackManager()
     {
         return _enemyAttackManager;
+    }
+    public AttackSet GetAttackSet()
+    {
+        return _attackSet;
     }
 }

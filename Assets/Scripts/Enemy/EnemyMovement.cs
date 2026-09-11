@@ -130,4 +130,7 @@ public class EnemyMovement : MonoBehaviour, IMovement
     {
         return this.OnMovementEnd;
     }
+    public PathFinding GetPathFinding() { 
+        return _pathFinding;
+    }
 }

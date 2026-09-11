@@ -128,7 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 522d01accda5fe84d9345c37930d3802, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
-  _baseStats: {fileID: 11400000, guid: 6b4c036201c95424c94b7974c8b91b35, type: 2}
+  _baseStats: {fileID: 11400000, guid: 0586066ee8a55f14e8af050d27c63819, type: 2}
 --- !u!114 &8055171366292807777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -141,5 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ab7e8ceb9faac24c9a262d95930c005, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
+  OnMovementEnd:
+    m_PersistentCalls:
+      m_Calls: []
   _inputActionAsset: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-  PathFindingDebugObjectPrefab: {fileID: 0}
